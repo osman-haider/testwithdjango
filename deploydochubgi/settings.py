@@ -37,6 +37,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'website',
+]
+
+TEST_APPS = [
+    # ...
+    'website',  # Include 'website' in this list as well
+    # ...
 ]
 
 MIDDLEWARE = [
